@@ -27,9 +27,10 @@ pip install -r requirements.txt
 本程序支持命令行代参启动，可选参数如下表
 
 ```
--s 源文件名，不加默认为src.osm 该功能尚未开发
--o 输出文件名，不加默认为dst.osm 该功能尚未开发
--h 帮助
+--src 源文件名，不加默认为src.osm 该功能尚未开发
+--dst 输出文件名，不加默认为dst.osm 该功能尚未开发
+--mode safe为仅检查不修正
+--help 帮助
 ```
 
 ### 注意

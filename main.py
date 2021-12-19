@@ -35,9 +35,9 @@ if __name__ == '__main__':
         help='处理结果路径'
     )
     argparser.add_argument(
-        '--pause',
-        default='yes',
-        help='运行完成后暂停，yes or no'
+        '--mode',
+        default='safe',
+        help='是否安全执行（仅检查，不更改文件）'
     )
 
     main(argparser.parse_args())
